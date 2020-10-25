@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>HA-HA not today</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GetData\GetData.csproj" />
+    <ProjectReference Include="..\Routing\Utils.csproj" />
+  </ItemGroup>
+
+
+</Project>
