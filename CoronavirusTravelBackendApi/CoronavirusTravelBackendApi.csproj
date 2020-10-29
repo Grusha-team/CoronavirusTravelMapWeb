@@ -9,6 +9,10 @@
     <ProjectReference Include="..\GetData\GetData.csproj" />
     <ProjectReference Include="..\Routing\Utils.csproj" />
   </ItemGroup>
-
-
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
+  </PropertyGroup>
+  
 </Project>
