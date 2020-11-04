@@ -32,11 +32,9 @@ namespace GetData
         public Quarantine quarantine { get; }
         [JsonConverter(typeof(StringEnumConverter))]
         public CovidTest covidtest { get; }
-        public List<string> ListsOfCountries { get; }
         public Country(string name)
         {
             this.name = name;
-            ListsOfCountries = new List<string>();
         }
         public Country(string name, string quarantine, string covidtest)
         {

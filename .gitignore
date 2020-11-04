@@ -3,3 +3,11 @@
 ################################################################################
 
 /GetData/obj/Release/netcoreapp3.1
+/GetData/obj/Debug/netcoreapp3.1
+/GetData/obj
+/GetData/bin/Release/netcoreapp3.1
+/GetData/bin/Debug/netcoreapp3.1
+/GetData/bin
+/Routing
+/.vs/CoronavirusTravelBackendApi/v16
+/CoronavirusTravelBackendApi
