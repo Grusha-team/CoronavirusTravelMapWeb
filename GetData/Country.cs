@@ -36,35 +36,11 @@ namespace GetData
         {
             this.name = name;
         }
-        public Country(string name, string quarantine, string covidtest)
+        public Country(string name, Quarantine quarantine, CovidTest covidtest)
         {
             this.name = name;
-            switch (quarantine)
-            {
-                case "yes":
-                    this.quarantine = Quarantine.yes;
-                    break;
-                case "no":
-                    this.quarantine = Quarantine.no;
-                    break;
-                default:
-                    this.quarantine = Quarantine.unknown;
-                    break;
-
-            }
-            switch (covidtest)
-            {
-                case "yes":
-                    this.covidtest = CovidTest.yes;
-                    break;
-                case "no":
-                    this.covidtest = CovidTest.no;
-                    break;
-                default:
-                    this.covidtest = CovidTest.unknown;
-                    break;
-
-            }
+            this.quarantine = quarantine;
+            this.covidtest = covidtest;
 
         }
     }

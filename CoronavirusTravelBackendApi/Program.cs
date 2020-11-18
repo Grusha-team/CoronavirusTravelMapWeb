@@ -58,6 +58,10 @@ namespace CoronavirusTravelBackendApi
                                     var data = hub.FindRoute(start, finish);
                                     await response.WriteAsync(data == null ? "null" : data);
                                 });
+                                r.MapGet("GetAllCountries", async (request, response, routeData) =>
+                                {   
+                                    await response.WriteAsync(JsonConvert.SerializeObject(Hub.countries));
+                                });
 
                             })
                             );
