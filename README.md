@@ -7,7 +7,8 @@ Simple API.
                         <li>finish [name of the country]</li>
                 </ul></li>
               <li>/GetCountryData
-               <ul><li>name [name of the country]</li> </ul></li></ul>
+               <ul><li>name [name of the country]</li> </ul></li>
+ <li>/GetAllCountries</li></ul>
                  Example of the request: <code>http://176.119.156.192/GetRoute?start=Egypt&finish=Britain</code> <br>  
 Example of the answer : <code> [{"name":"Egypt","quarantine":"unknown","covidtest":"unknown"},{"name":"HongKong","quarantine":"yes","covidtest":"no","ListsOfCountries":null},{"name":"Britain","quarantine":"unknown","covidtest":"unknown"}]</code>
 <h1> Useful data </h1>
