@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetData", "GetData\GetData.
 		{459F17FC-02B8-4AD9-9A17-58ECD93C17DC} = {459F17FC-02B8-4AD9-9A17-58ECD93C17DC}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{2747228B-C2CF-410D-BE7C-A3F6512D1E60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{20923A44-D517-4882-BD92-6AC623245D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20923A44-D517-4882-BD92-6AC623245D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20923A44-D517-4882-BD92-6AC623245D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2747228B-C2CF-410D-BE7C-A3F6512D1E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2747228B-C2CF-410D-BE7C-A3F6512D1E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2747228B-C2CF-410D-BE7C-A3F6512D1E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2747228B-C2CF-410D-BE7C-A3F6512D1E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

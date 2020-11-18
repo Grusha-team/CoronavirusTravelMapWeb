@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Text.RegularExpressions;
+using Extensions;
 
 namespace GetData
 {
@@ -74,8 +75,9 @@ namespace GetData
             {
                 foreach (var row in values)
                 {
-                    countries.Add(new Country (row[0].ToString(), row[2].ToString(), row[3].ToString()));
-                
+                    countries.Add(new Country (row[0].ToString(), 
+                                  row[2].ToString().ToEnum<Quarantine>(Quarantine.unknown), 
+                                  row[3].ToString().ToEnum<CovidTest>(CovidTest.unknown)));      
                 }
             }
             return countries;

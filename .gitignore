@@ -11,3 +11,7 @@
 /Routing
 /.vs/CoronavirusTravelBackendApi/v16
 /CoronavirusTravelBackendApi
+/Extensions/obj
+/Extensions/bin/Release/netcoreapp3.1
+/Extensions/bin/Debug/netcoreapp3.1
+/Extensions/bin
